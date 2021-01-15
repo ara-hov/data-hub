@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.header__container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3E4651;
+    padding: 3rem 0 2rem;
+    height: fit-content;
+}

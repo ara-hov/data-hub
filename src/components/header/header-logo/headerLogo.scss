@@ -1,0 +1,8 @@
+.header__logo__container {
+  &__content {
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    gap: .8rem;
+  }
+}

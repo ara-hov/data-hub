@@ -1,0 +1,22 @@
+@import '../../../styles/variables.scss';
+
+.userAction__container {
+  display: grid;
+  grid-auto-flow: column;
+  .anticon {
+    display: block;
+    font-size: 1.9rem;
+  }
+  &--signup {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .ant-divider {
+    height: 1.9rem;
+    border: 1px solid $borderDarkColor;
+    margin: 0 1.8rem;
+  }
+}
